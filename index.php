@@ -7,6 +7,6 @@
 <div>
 <h1> Backend Test 1: PersistentCalc </h1> 
 </div>
-<link rel="help" href="/debug/auth.php"
+<link rel="help" href="/debug/auth.php">
 </body>
 </html>
