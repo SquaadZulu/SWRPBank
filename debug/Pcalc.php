@@ -18,7 +18,7 @@
     </form>
 
 <?php
-$result = "0"
+
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
      $v1=$_POST["v1"];
      $v2=$_POST["v2"];
@@ -30,7 +30,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          $result = $v1-$v2;
      }
     echo "$result";
-     $v1=$result;
+     
+
 
 }
 ?>
