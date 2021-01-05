@@ -8,8 +8,8 @@
 <h1> Enter Passcode </h1>
 </div>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-<input type="password" id="PC" name="passcode">
-<input type="submit"  value="Auth">
+<input type="password" id="PC" name="passcode"/>
+<input type="submit"  value="Auth"/>
 </form>
 <?php
 // define variables and set to empty values
