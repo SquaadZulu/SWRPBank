@@ -1,15 +1,13 @@
 {
     "name": "squaadzulu/swrp-bank",
-    "description": "A PHP-based monetary system for StormWorks: RP server",
+    "description": "A monetary system for SWRP.",
     "type": "project",
-    "require-dev": {
-        "`": "`"
-    },
     "authors": [
         {
             "name": "SquaadZulu",
             "email": "dwerp5956@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {}
 }
