@@ -13,7 +13,6 @@
 </form>
 <?php
 // define variables and set to empty values
-$passcode = "";
 $ca1 = "88224646";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
