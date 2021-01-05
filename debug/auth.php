@@ -22,10 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 if ($pass == $ca1) {
     echo "Passcode accepted!";
-} elseif ($pass == "") {
-    echo "Passcode required.";
-} else {
-    echo "invalid passcode";
+} else{
+    echo "Passcode invalid.";
 }
 ?>
 </body>
