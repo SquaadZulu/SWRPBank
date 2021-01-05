@@ -24,7 +24,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
      $v2=$_POST["v2"];
      $op=$_POST["action"];
 
-     if ($op="add"){
+     if ($op=="add"){
          $result = $v1+$v2;
      } else {
          $result = $v1-$v2;
