@@ -1,0 +1,9 @@
+{
+    "name": "project-greenmat",
+    "version": "1.0.0",
+    "dependencies": {
+        "@material-ui/core": "^4.11.2",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1"
+    }
+}
