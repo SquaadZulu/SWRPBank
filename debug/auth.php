@@ -8,7 +8,7 @@
 <h1> Enter Passcode </h1>
 </div>
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
-<input type="text" id="PC" name="passcode">
+<input type="password" id="PC" name="passcode">
 <input type="submit"  value="Auth">
 </form>
 <?php
@@ -22,6 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 if ($pass == $ca1) {
     echo "Passcode accepted!";
+    header("Location: menu.php");
 } elseif ($pass == ""){
     echo "Passcode required.";
 } else {
