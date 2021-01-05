@@ -9,7 +9,8 @@
 </div>
     <form method="get" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
         <input name="v1">
-        
+        <input name="v2">
+        <input type="submit" name="Submit">
     </form>
 </body>
 </html>
