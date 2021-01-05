@@ -17,10 +17,15 @@ $passcode = "";
 $ca1 = "88224646";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
+    $_POST["passcode"] = $pass;
 }
-if ($_POST["passcode"] == $ca1) {
-    echo yeet;
+
+if ($pass == $ca1) {
+    echo "Passcode accepted!";
+} elseif ($pass == "") {
+    echo "Passcode required.";
+} else {
+    echo "invalid passcode";
 }
 ?>
 </body>
