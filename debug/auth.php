@@ -12,7 +12,7 @@
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <?php
 // define variables and set to empty values
-$passcode = "";
+$passcode = "88224646";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $passcode = test_input($_POST["passcode"]);
