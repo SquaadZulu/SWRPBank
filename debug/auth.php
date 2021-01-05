@@ -7,17 +7,19 @@
 <div>
 <h1> Enter Passcode </h1>
 </div>
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <input type="text" id="PC" name="passcode">
 <input type="submit"  value="Auth">
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+</form>
 <?php
 // define variables and set to empty values
-$passcode = "88224646";
+$passcode = "";
+$ca1 = "88224646";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $passcode = test_input($_POST["passcode"]);
 }
-if ($passcode = "88224646") {
+if ($passcode == $ca1) {
     echo yeet;
 }
 ?>
