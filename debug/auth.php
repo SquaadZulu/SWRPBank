@@ -17,9 +17,9 @@ $passcode = "";
 $ca1 = "88224646";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $passcode = test_input($_POST["passcode"]);
+
 }
-if ($passcode == $ca1) {
+if ($_POST["passcode"] == $ca1) {
     echo yeet;
 }
 ?>
